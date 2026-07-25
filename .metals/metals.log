@@ -817,3 +817,784 @@ INFO: Unsupported notification method: $/setTrace
 2026.07.25 20:49:12 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
 2026.07.25 20:49:15 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
 2026.07.25 20:49:18 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:38 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:41 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:42 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:42 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:45 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:45 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:46 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:47 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:49:47 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:49:47 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:47 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:47 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:49 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:49 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+Jul 25, 2026 8:49:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 68
+2026.07.25 20:49:49 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:49 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+Jul 25, 2026 8:49:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 70
+2026.07.25 20:49:49 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:49 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:49 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:49 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:50 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:50 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:50 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:51 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:51 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:49:51 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:49:51 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:53 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:53 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:53 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:53 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:53 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:53 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:54 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:49:55 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:54 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:55 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:55 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:49:55 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:56 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:49:56 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:56 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:56 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:56 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:49:57 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:57 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:49:57 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:58 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:58 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:58 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:58 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:58 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:58 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:58 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:59 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:49:59 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:59 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:59 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:49:59 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:00 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:49:59 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:01 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:01 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:01 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:01 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:01 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:01 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:01 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:01 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:01 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:01 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:01 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:01 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:02 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:02 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:02 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:02 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:03 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:50:02 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:03 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:03 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:03 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:03 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:03 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:03 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:03 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:03 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:04 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:04 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+Jul 25, 2026 8:50:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 164
+2026.07.25 20:50:04 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:04 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:04 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:04 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:04 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:05 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:04 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:04 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:05 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:05 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:06 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:06 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:50:06 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:06 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:06 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:06 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:06 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:07 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:07 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:50:07 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:07 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:07 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:08 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:08 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:08 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:08 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:08 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:08 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:08 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:09 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:08 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:09 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:09 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:09 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:09 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+Jul 25, 2026 8:50:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 208
+2026.07.25 20:50:09 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:10 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:09 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:09 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:10 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:09 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:10 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:10 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:10 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:11 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:50:11 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:12 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:12 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:12 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+Jul 25, 2026 8:50:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 224
+2026.07.25 20:50:12 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:12 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:12 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:12 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:12 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:12 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:12 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:12 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:12 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:12 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:13 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:13 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:13 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:50:13 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:14 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:14 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:14 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:14 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:14 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:15 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:50:15 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:16 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:16 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:18 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:18 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:19 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:19 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:19 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:19 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:19 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:19 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:19 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:19 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:20 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:19 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:20 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:21 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:20 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:21 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:21 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:20 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:20 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:21 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:21 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:21 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:22 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:21 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:21 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:21 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:21 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:22 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:21 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:21 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:21 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:21 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:22 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:23 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:23 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:23 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:23 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:23 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:23 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:23 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:23 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:23 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:23 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:23 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:23 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:24 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:50:24 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:25 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:25 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:25 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:25 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:25 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:25 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:26 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:25 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:26 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:26 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:26 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:26 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:27 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:27 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:27 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:27 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:27 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:28 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:27 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:27 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:28 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:27 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:28 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:29 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:29 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:29 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:29 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:29 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:29 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:30 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:30 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:30 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:31 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:50:31 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:33 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:33 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:33 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:33 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+Jul 25, 2026 8:50:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 370
+2026.07.25 20:50:33 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:33 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:33 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:34 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:33 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:33 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:34 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:34 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:34 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:34 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:34 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:35 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:34 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:35 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:50:35 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:37 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:37 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:43 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:43 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:44 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:44 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:44 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:44 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:44 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:44 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:45 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:44 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:44 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:44 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:45 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:45 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:45 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:45 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:46 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:50:46 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:47 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:47 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:47 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:47 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:48 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:47 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:47 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:48 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:47 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:47 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:48 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:49 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:48 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:49 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:49 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:49 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:49 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:50:50 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:51 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:51 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:51 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:51 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:52 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:52 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:52 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:52 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:52 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:52 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:52 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:53 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:52 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:53 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:53 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:53 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:53 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:53 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:54 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:54 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:55 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:55 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:50:55 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:55 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:56 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:56 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:56 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:56 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:56 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:56 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:56 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:56 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:56 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:56 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:56 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:57 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+Jul 25, 2026 8:50:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 486
+2026.07.25 20:50:57 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:57 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:57 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:57 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:57 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:57 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:58 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:58 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:58 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:58 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:58 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:50:58 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:59 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:59 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:59 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:59 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:59 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:59 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:59 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:00 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:50:59 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:59 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:50:59 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:00 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:51:00 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:01 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:01 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:01 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:51:01 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:01 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:02 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:02 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:02 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:51:03 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:51:03 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:04 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:04 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:04 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:04 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:04 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:04 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+Jul 25, 2026 8:51:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 543
+2026.07.25 20:51:04 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:05 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:05 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:51:04 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:04 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:05 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:05 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:05 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:51:05 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:06 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:51:05 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:06 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:05 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:06 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:06 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:51:06 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:51:07 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:08 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:08 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:08 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:08 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:08 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:08 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:09 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:08 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:08 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:08 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:09 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:09 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:09 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:09 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:51:09 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:09 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:10 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:51:10 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:11 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:11 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:14 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:14 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:14 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:15 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:14 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:15 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:51:14 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:14 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:16 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:51:16 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:16 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:16 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:16 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:16 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:16 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:16 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+Jul 25, 2026 8:51:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 611
+2026.07.25 20:51:16 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:16 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:51:16 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:16 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:51:16 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:17 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:17 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:17 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:51:17 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:17 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:18 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:51:17 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:18 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:18 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:18 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:18 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:18 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:51:18 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:18 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:18 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:18 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:18 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:18 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:18 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:51:19 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:19 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:19 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:19 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:19 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:19 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:20 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:19 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:19 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:20 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:20 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:20 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:21 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:20 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:20 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:51:20 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:20 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:21 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:21 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:51:21 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:23 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:23 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:24 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:24 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:24 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:51:24 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:24 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:24 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:25 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:51:25 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:25 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:25 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:25 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:27 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:28 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:28 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:28 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:28 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:28 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:29 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:29 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:51:30 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:30 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:30 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:51:30 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:30 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:30 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:31 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:31 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:31 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:51:32 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:51:32 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:32 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:32 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:32 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:33 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:33 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:33 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:33 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:33 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:33 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:35 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:35 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:35 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:35 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:35 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:35 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:36 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:36 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:51:35 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:35 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:36 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:51:36 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:36 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:36 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:37 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:51:37 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:36 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:36 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:36 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:37 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:36 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:37 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:51:38 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:38 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:51:38 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:38 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:38 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:39 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:51:39 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:52:06 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:52:06 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:52:07 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:52:08 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:52:08 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:52:30 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:52:30 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:52:31 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:52:31 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:52:31 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:52:31 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:52:32 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:52:32 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:52:32 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:52:31 WARN  Running javac-semanticdb failed for file:///C:/Users/Raghav/OneDrive/Desktop/TUF-sols/LLD/Main1.java. Output:
+
+2026.07.25 20:52:33 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:52:33 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:52:35 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:52:38 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:52:38 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:52:42 WARN  no build target for: C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java
+2026.07.25 20:52:42 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+Jul 25, 2026 8:52:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.07.25 20:52:43 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:52:54 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:52:54 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:09 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:09 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:18 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:21 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:21 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:22 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:22 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:23 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:23 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:25 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:25 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:26 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:26 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:28 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:28 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:30 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:30 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:31 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:31 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:33 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:33 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:34 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:34 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:35 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:35 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:37 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:37 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:39 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:39 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:40 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:40 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:42 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:42 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:43 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:43 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:46 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:46 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:48 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:48 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:49 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:49 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:51 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:51 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:52 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:52 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:54 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:54 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:55 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:55 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:57 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:57 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:58 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:53:58 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:00 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:00 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:02 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:02 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:03 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:03 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:04 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:04 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:06 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:06 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:07 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:07 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:09 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:09 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:10 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:10 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:12 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:12 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:14 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:14 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:15 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:15 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:17 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:17 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:18 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:18 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:20 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:20 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:21 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:21 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:23 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:23 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:24 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:24 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:26 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:26 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:27 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:27 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:29 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:29 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:30 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:30 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:32 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:32 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:34 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:34 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:35 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:35 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:37 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:37 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:38 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:38 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:40 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:40 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:41 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:41 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:43 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:43 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:44 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:44 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:46 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:46 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:47 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:47 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:49 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:49 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:50 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:50 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:52 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:52 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:54 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:54 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:55 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:55 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:57 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
+2026.07.25 20:54:57 INFO  no build target found for C:\Users\Raghav\OneDrive\Desktop\TUF-sols\LLD\Main1.java. Using fallback presentation compiler.
