@@ -15,7 +15,7 @@ class TextNotification extends Notification{
 
 class WpNotification extends Notification{
 
-    @Override
+    
     public void sendNotification(){
         System.out.println("Wp");
     }
