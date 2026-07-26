@@ -1,0 +1,8 @@
+{
+    "files.watcherExclude": {
+        "**/target/**": true
+    },
+    "metals.enableSemanticHighlighting": false,
+    "metals.enableStripMarginOnTypeFormatting": false,
+    "metals.protobufLsp": false
+}
