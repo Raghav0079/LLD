@@ -4,6 +4,23 @@ class Notification{
     }
 }
 
+class TextNotification extends Notification{
+
+    @Override
+    public void sendNotification(){
+        System.out.println("text");
+    }
+}
+
+
+class WpNotification extends Notification{
+
+    @Override
+    public void sendNotification(){
+        System.out.println("Wp");
+    }
+
+}
 
 
 public class Main2 {
