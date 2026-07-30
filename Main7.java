@@ -5,7 +5,7 @@ class JudgeAnalytics{
 
     }
     
-    public static JudgeAnalytics getInstance(){
+    public static synchronized JudgeAnalytics getInstance(){
         if(judgeAnalytics == null){
             judgeAnalytics = new JudgeAnalytics();
         }
