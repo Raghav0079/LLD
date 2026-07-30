@@ -1,19 +1,12 @@
 class JudgeAnalytics{
-    private static JudgeAnalytics judgeAnalytics = null;
-
     private JudgeAnalytics(){
 
     }
-    
+    private static class Holder{
+        private static final JudgeAnalytics judgeAnalytics = new JudgeAnalytics();
+    }
     public static JudgeAnalytics getInstance(){
-        if(judgeAnalytics == null){
-            synchronized ( JudgeAnalytics.class){
-                if(judgeAnalytics == null){
-                    judgeAnalytics = new JudgeAnalytics();
-                }
-            }
-        }
-        return judgeAnalytics;
+        return Holder.judgeAnalytics;
     }
 }
 
