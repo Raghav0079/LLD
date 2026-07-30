@@ -5,9 +5,13 @@ class JudgeAnalytics{
 
     }
     
-    public static synchronized JudgeAnalytics getInstance(){
+    public static JudgeAnalytics getInstance(){
         if(judgeAnalytics == null){
-            judgeAnalytics = new JudgeAnalytics();
+            synchronized ( JudgeAnalytics.class){
+                if(judgeAnalytics == null){
+                    judgeAnalytics = new JudgeAnalytics();
+                }
+            }
         }
         return judgeAnalytics;
     }
