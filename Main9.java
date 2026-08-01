@@ -2,11 +2,11 @@ import java.util.*;
 
 // Represents a customizable Burger Meal
 class BurgerMeal {
-    // Required components
+    
     private final String bunType;
     private final String patty;
 
-    // Optional components
+    
     private final boolean hasCheese;
     private final List<String> toppings;
     private final String side;
@@ -30,7 +30,7 @@ class BurgerMeal {
 
         // Optional
         private boolean hasCheese;
-        private List<String> toppings;
+        private List<String> toppings = new ArrayList<>(); // Initialized to prevent NullPointerException
         private String side;
         private String drink;
 
@@ -73,22 +73,10 @@ class BurgerMeal {
 
 class Main {
     public static void main(String[] args) {
-        // Creating burger with only required fields
-        BurgerMeal plainBurger = new BurgerMeal.BurgerBuilder("wheat", "veg")
-                                    .build();
-
-        // Burger with cheese only
-        BurgerMeal burgerWithCheese = new BurgerMeal.BurgerBuilder("wheat", "veg")
-                                        .withCheese(true)
-                                        .build();
-
-        // Fully loaded burger
-        List<String> toppings = Arrays.asList("lettuce", "onion", "jalapeno");
-        BurgerMeal loadedBurger = new BurgerMeal.BurgerBuilder("multigrain", "chicken")
-                                        .withCheese(true)
-                                        .withToppings(toppings)
-                                        .withSide("fries")
-                                        .withDrink("coke")
-                                        .build();
+        
+        BurgerMeal burgerMeal = new BurgerMeal.BurgerBuilder("wheat", "veg")
+                .withCheese(true)
+                .withSide("Fries")
+                .build(); 
     }
 }
