@@ -28,7 +28,23 @@ class GSTInvoice implements Invoice {
 }
 
 // ========== US Implementations ==========
+class PayPalGateway implements PaymentGateway {
+    public void processPayment(double amount) {
+        System.out.println("Processing USD payment via PayPal: " + amount);
+    }
+}
 
+class StripeGateway implements PaymentGateway {
+    public void processPayment(double amount) {
+        System.out.println("Processing USD payment via Stripe: " + amount);
+    }
+}
+
+class USInvoice implements Invoice {
+    public void generateInvoice() {
+        System.out.println("Generating Invoice as per US norms.");
+    }
+}
 
 // ========== Abstract Factory ==========
 interface RegionFactory {
