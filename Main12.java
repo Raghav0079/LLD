@@ -1,6 +1,3 @@
-import java.util.*;
-
-// Target Interface: 
 // Standard interface expected by the CheckoutService
 interface PaymentGateway {
     void pay(String orderId, double amount);
@@ -47,3 +44,6 @@ class Main12 {
         checkoutService.checkout("12", 1780);
     }
 }
+
+// problem : if not using the org payment gateway want to shift somethig else , it should be easier 
+// we cannot give a payment gateway bcs its a third party api
