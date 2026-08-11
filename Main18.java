@@ -1,40 +1,69 @@
-interface PlayQuality {
-    void play(String title);
+interface VideoQuality {
+    void load(String title);
 }
 
-// Each class here represents a combination of platform and quality
-class WebHDPlayer implements PlayQuality {
-    public void play(String title) {
-        // Web player plays in HD
-        System.out.println("Web Player: Playing " + title + " in HD");
+// ============ Concrete Implementors ==============
+class SDQuality implements VideoQuality {
+    public void load(String title) {
+        System.out.println("Streaming " + title + " in SD Quality");
     }
 }
 
-class MobileHDPlayer implements PlayQuality {
-    public void play(String title) {
-        // Mobile player plays in HD
-        System.out.println("Mobile Player: Playing " + title + " in HD");
+class HDQuality implements VideoQuality {
+    public void load(String title) {
+        System.out.println("Streaming " + title + " in HD Quality");
     }
 }
 
-class SmartTVUltraHDPlayer implements PlayQuality {
-    public void play(String title) {
-        // Smart TV plays in Ultra HD
-        System.out.println("Smart TV: Playing " + title + " in ultra HD");
+class UltraHDQuality implements VideoQuality {
+    public void load(String title) {
+        System.out.println("Streaming " + title + " in 4K Ultra HD Quality");
     }
 }
 
-class Web4KPlayer implements PlayQuality {
+// ========== Abstraction ==========
+abstract class VideoPlayer {
+    protected VideoQuality quality;
+
+    public VideoPlayer(VideoQuality quality) {
+        this.quality = quality;
+    }
+
+    public abstract void play(String title);
+}
+
+// =========== Refined Abstractions ==============
+class WebPlayer extends VideoPlayer {
+    public WebPlayer(VideoQuality quality) {
+        super(quality);
+    }
+
     public void play(String title) {
-        // Web player plays in 4K
-        System.out.println("Web Player: Playing " + title + " in 4K");
+        System.out.println("Web Platform:");
+        quality.load(title);
     }
 }
 
-// ============ Main class ================
+class MobilePlayer extends VideoPlayer {
+    public MobilePlayer(VideoQuality quality) {
+        super(quality);
+    }
+
+    public void play(String title) {
+        System.out.println("Mobile Platform:");
+        quality.load(title);
+    }
+}
+
+// Client Code
 class Main18 {
     public static void main(String[] args) {
-        PlayQuality player = new WebHDPlayer();
-        player.play("Interstellar");
+        // Playing on Web with HD Quality
+        VideoPlayer player1 = new WebPlayer(new HDQuality());
+        player1.play("Interstellar");
+
+        // Playing on Mobile with Ultra HD Quality
+        VideoPlayer player2 = new MobilePlayer(new UltraHDQuality());
+        player2.play("Inception");
     }
 }
