@@ -1,8 +1,8 @@
 import java.util.*;
 
-// A simple Video class with title
+// ========== Video class representing a single video ==========
 class Video {
-    String title;
+    private String title;
 
     public Video(String title) {
         this.title = title;
@@ -13,31 +13,65 @@ class Video {
     }
 }
 
-// YouTubePlaylist class holds a list of Video objects
+// ========== YouTubePlaylist class (Aggregate) ==========
 class YouTubePlaylist {
     private List<Video> videos = new ArrayList<>();
 
-    // Add a video to the playlist
+    // Method to add video to playlist
     public void addVideo(Video video) {
         videos.add(video);
     }
 
-    // Expose the video list
+    // Method to expose internal video list 
     public List<Video> getVideos() {
         return videos;
     }
 }
 
-// Client Code
-class Main20 {
+// ========== Iterator interface ==========
+interface PlaylistIterator {
+    boolean hasNext();
+    Video next();
+}
+
+// ========== Concrete Iterator class ==========
+class YouTubePlaylistIterator implements PlaylistIterator {
+    private List<Video> videos;
+    private int position;
+
+    // Constructor takes the list to iterate on
+    public YouTubePlaylistIterator(List<Video> videos) {
+        this.videos = videos;
+        this.position = 0;
+    }
+
+    // Check if more videos are left to iterate
+    @Override
+    public boolean hasNext() {
+        return position < videos.size();
+    }
+
+    // Return the next video in sequence
+    @Override
+    public Video next() {
+        return hasNext() ? videos.get(position++) : null;
+    }
+}
+
+// ========== Main method (Client code) ==========
+public class Main20 {
     public static void main(String[] args) {
+        // Create a playlist and add videos
         YouTubePlaylist playlist = new YouTubePlaylist();
         playlist.addVideo(new Video("LLD Tutorial"));
         playlist.addVideo(new Video("System Design Basics"));
 
-        // Loop through videos and print titles
-        for (Video v : playlist.getVideos()) {
-            System.out.println(v.getTitle());
+        // Client directly creates the iterator using internal list (not ideal)
+        PlaylistIterator iterator = new YouTubePlaylistIterator(playlist.getVideos());
+
+        // Use the iterator to loop through the playlist
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next().getTitle());
         }
     }
 }
