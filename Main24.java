@@ -1,57 +1,100 @@
-import java.util.*;
+abstract class NotificationSender {
 
-// EmailNotification handles sending emails
-class EmailNotification {
+    // Template method
+    public final void send(String to, String rawMessage) {
+        // Common Logic
+        rateLimitCheck(to);
+        validateRecipient(to);
+        String formatted = formatMessage(rawMessage);
+        preSendAuditLog(to, formatted);
+        
+        // Specific Logic: defined by subclassese
+        String composedMessage = composeMessage(formatted);
+        sendMessage(to, composedMessage);
+        
+        // Optional Hook
+        postSendAnalytics(to);
+    }
 
-    public void send(String to, String message) {
+    // Common step 1: Check rate limits
+    private void rateLimitCheck(String to) {
         System.out.println("Checking rate limits for: " + to);
-        System.out.println("Validating email recipient: " + to);
-        String formatted = message.trim();
+    }
+
+    // Common step 2: Validate recipient
+    private void validateRecipient(String to) {
+        System.out.println("Validating recipient: " + to);
+    }
+
+    // Common step 3: Format the message (can be customized)
+    private String formatMessage(String message) {
+        return message.trim(); // could include HTML escaping, emoji processing, etc.
+    }
+
+    // Common step 4: Pre-send audit log
+    private void preSendAuditLog(String to, String formatted) {
         System.out.println("Logging before send: " + formatted + " to " + to);
+    }
 
-        // Compose Email
-        String composedMessage = "<html><body><p>" + formatted + "</p></body></html>";
+    // Hook for subclasses to implement custom message composition
+    protected abstract String composeMessage(String formattedMessage);
 
-        // Send Email
-        System.out.println("Sending EMAIL to " + to + " with content:\n" + composedMessage);
+    // Hook for subclasses to implement custom message sending
+    protected abstract void sendMessage(String to, String message);
 
-        // Analytics
+    // Optional hook for analytics (can be overridden)
+    protected void postSendAnalytics(String to) {
         System.out.println("Analytics updated for: " + to);
     }
 }
 
-// SMSNotification handles sending SMS messages
-class SMSNotification {
+// Concrete class for email notifications
+class EmailNotification extends NotificationSender {
 
-    public void send(String to, String message) {
-        System.out.println("Checking rate limits for: " + to);
-        System.out.println("Validating phone number: " + to);
-        String formatted = message.trim();
-        System.out.println("Logging before send: " + formatted + " to " + to);
+    // Implement message composition for email
+    @Override
+    protected String composeMessage(String formattedMessage) {
+        return "<html><body><p>" + formattedMessage + "</p></body></html>";
+    }
 
-        // Compose SMS
-        String composedMessage = "[SMS] " + formatted;
+    // Implement email sending logic
+    @Override
+    protected void sendMessage(String to, String message) {
+        System.out.println("Sending EMAIL to " + to + " with content:\n" + message);
+    }
+}
 
-        // Send SMS
-        System.out.println("Sending SMS to " + to + " with message: " + composedMessage);
+// Concrete class for SMS notifications
+class SMSNotification extends NotificationSender {
 
-        // Analytics (custom)
+    // Implement message composition for SMS
+    @Override
+    protected String composeMessage(String formattedMessage) {
+        return "[SMS] " + formattedMessage;
+    }
+
+    // Implement SMS sending logic
+    @Override
+    protected void sendMessage(String to, String message) {
+        System.out.println("Sending SMS to " + to + " with message: " + message);
+    }
+
+    // Override optional hook for custom SMS analytics
+    @Override
+    protected void postSendAnalytics(String to) {
         System.out.println("Custom SMS analytics for: " + to);
     }
 }
 
+// Client code
 class Main24 {
     public static void main(String[] args) {
-        // Create objects for both notification services
-        EmailNotification emailNotification = new EmailNotification();
-        SMSNotification smsNotification = new SMSNotification();
+        NotificationSender emailSender = new EmailNotification();
+        emailSender.send("john@example.com", "Welcome to TUF+!");
 
-        // Sending email notification
-        emailNotification.send("example@example.com", "Your order has been placed!");
-        
         System.out.println(" ");
-        
-        // Sending SMS notification
-        smsNotification.send("1234567890", "Your OTP is 1234.");
+
+        NotificationSender smsSender = new SMSNotification();
+        smsSender.send("9876543210", "Your OTP is 4567.");
     }
 }
