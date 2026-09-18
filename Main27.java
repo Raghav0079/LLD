@@ -1,76 +1,33 @@
+class SupportService {
 
-abstract class SupportHandler{
-    protected SupportHandler nextHandler;
-
-    public void setNextHandler(SupportHandler nextHandler) {
-        this.nextHandler = nextHandler;
-    }
-
-    public abstract void handleRequest(String requestType);
-}
-
-class GeneralSupport extends SupportHandler {
-    public void handleRequest(String requestType) {
-        if (requestType.equalsIgnoreCase("general")) {
-            System.out.println("GeneralSupport: Handling general query");
-        } else if (nextHandler != null) {
-            nextHandler.handleRequest(requestType);
-        }
-    }
-}
-
-
-class BillingSupport extends SupportHandler {
-    public void handleRequest(String requestType) {
-        if (requestType.equalsIgnoreCase("refund")) {
-            System.out.println("BillingSupport: Handling refund request");
-        } else if (nextHandler != null) {
-            nextHandler.handleRequest(requestType);
-        }
-    }
-}
-
-
-class TechnicalSupport extends SupportHandler{
-    public void handleRequest(String requestType){
-        if (requestType.equalsIgnoreCase("technical")) {
-            System.out.println("TechnicalSupport: Handling technical issue");
-        } else if (nextHandler != null) {
-            nextHandler.handleRequest(requestType);
-        }
-
-    }
-}
-
-class DeliverySupport extends SupportHandler{
-    public void handleRequest(String requestType) {
-        if (requestType.equalsIgnoreCase("delivery")) {
-            System.out.println("DeliverySupport: Handling delivery issue");
-        } else if (nextHandler != null) {
-            nextHandler.handleRequest(requestType);
+    // Method to handle the support request based on the type of issue
+    public void handleRequest(String type) {
+        if (type.equals("general")) {
+            System.out.println("Handled by General Support");
+        } else if (type.equals("refund")) {
+            System.out.println("Handled by Billing Team");
+        } else if (type.equals("technical")) {
+            System.out.println("Handled by Technical Support");
+        } else if (type.equals("delivery")) {
+            System.out.println("Handled by Delivery Team");
         } else {
-            System.out.println("DeliverySupport: No handler found for request");
+            System.out.println("No handler available");
         }
     }
 }
 
+// client code 
+public class Main27 {
 
-class Main27{
     public static void main(String[] args) {
-        SupportHandler general = new GeneralSupport();
-        SupportHandler billing = new BillingSupport();
-        SupportHandler technical = new TechnicalSupport();
-        SupportHandler delivery = new DeliverySupport();
-
-
-        general.setNextHandler(billing);
-        billing.setNextHandler(technical);
-        technical.setNextHandler(delivery);
-
-
-        general.handleRequest("refund");
-        general.handleRequest("delivery");
-        general.handleRequest("unknown");
+        // Create an instance of SupportService
+        SupportService supportService = new SupportService();
+        
+        // Test with different types of requests
+        supportService.handleRequest("general");
+        supportService.handleRequest("refund");
+        supportService.handleRequest("technical");
+        supportService.handleRequest("delivery");
+        supportService.handleRequest("unknown");
     }
-
 }
