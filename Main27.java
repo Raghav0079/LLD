@@ -1,33 +1,77 @@
-class SupportService {
+abstract class SupportHandler {
+    protected SupportHandler nextHandler;
 
-    // Method to handle the support request based on the type of issue
-    public void handleRequest(String type) {
-        if (type.equals("general")) {
-            System.out.println("Handled by General Support");
-        } else if (type.equals("refund")) {
-            System.out.println("Handled by Billing Team");
-        } else if (type.equals("technical")) {
-            System.out.println("Handled by Technical Support");
-        } else if (type.equals("delivery")) {
-            System.out.println("Handled by Delivery Team");
-        } else {
-            System.out.println("No handler available");
+    // Method to set the next handler in the chain
+    public void setNextHandler(SupportHandler nextHandler) {
+        this.nextHandler = nextHandler;
+    }
+
+    // Abstract method to handle the request
+    public abstract void handleRequest(String requestType);
+}
+
+// Concrete Handler for General Support
+class GeneralSupport extends SupportHandler {
+    public void handleRequest(String requestType) {
+        if (requestType.equalsIgnoreCase("general")) {
+            System.out.println("GeneralSupport: Handling general query");
+        } else if (nextHandler != null) {
+            nextHandler.handleRequest(requestType);
         }
     }
 }
 
-// client code 
-public class Main27 {
+// Concrete Handler for Billing Support
+class BillingSupport extends SupportHandler {
+    public void handleRequest(String requestType) {
+        if (requestType.equalsIgnoreCase("refund")) {
+            System.out.println("BillingSupport: Handling refund request");
+        } else if (nextHandler != null) {
+            nextHandler.handleRequest(requestType);
+        }
+    }
+}
 
+// Concrete Handler for Technical Support
+class TechnicalSupport extends SupportHandler {
+    public void handleRequest(String requestType) {
+        if (requestType.equalsIgnoreCase("technical")) {
+            System.out.println("TechnicalSupport: Handling technical issue");
+        } else if (nextHandler != null) {
+            nextHandler.handleRequest(requestType);
+        }
+    }
+}
+
+// Concrete Handler for Delivery Support
+class DeliverySupport extends SupportHandler {
+    public void handleRequest(String requestType) {
+        if (requestType.equalsIgnoreCase("delivery")) {
+            System.out.println("DeliverySupport: Handling delivery issue");
+        } else if (nextHandler != null) {
+            nextHandler.handleRequest(requestType);
+        } else {
+            System.out.println("DeliverySupport: No handler found for request");
+        }
+    }
+}
+
+// Client Code
+class Main27 {
     public static void main(String[] args) {
-        // Create an instance of SupportService
-        SupportService supportService = new SupportService();
-        
-        // Test with different types of requests
-        supportService.handleRequest("general");
-        supportService.handleRequest("refund");
-        supportService.handleRequest("technical");
-        supportService.handleRequest("delivery");
-        supportService.handleRequest("unknown");
+        SupportHandler general = new GeneralSupport();
+        SupportHandler billing = new BillingSupport();
+        SupportHandler technical = new TechnicalSupport();
+        SupportHandler delivery = new DeliverySupport();
+
+        // Setting up the chain: general -> billing -> technical -> delivery
+        general.setNextHandler(billing);
+        billing.setNextHandler(technical);
+        technical.setNextHandler(delivery);
+
+        // Testing the chain of responsibility with different request types
+        general.handleRequest("refund");
+        general.handleRequest("delivery");
+        general.handleRequest("unknown");
     }
 }
