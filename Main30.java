@@ -1,62 +1,121 @@
 import java.util.*;
 
-// Originator class: stores the current state of the resume
+// Originator with Memento inside
 class ResumeEditor {
-    String name;
-    String education;
-    String experience;
-    List<String> skills;
-}
+    private String name;
+    private String education;
+    private String experience;
+    private List<String> skills;
 
-// ResumeSnapshot acts like a memento, but isn't encapsulated properly
-class ResumeSnapshot {
-    public String name;
-    public String education;
-    public String experience;
-    public List<String> skills;
-
-    // Constructor: captures the current state from ResumeEditor
-    public ResumeSnapshot(ResumeEditor editor) {
-        this.name = editor.name;
-        this.education = editor.education;
-        this.experience = editor.experience;
-        this.skills = new ArrayList<>(editor.skills); // Deep copy
+    public void setName(String name) {
+        this.name = name;
     }
 
-    // Restore function: applies the stored state back to ResumeEditor
-    public void restore(ResumeEditor editor) {
-        editor.name = this.name;
-        editor.education = this.education;
-        editor.experience = this.experience;
-        editor.skills = new ArrayList<>(this.skills); // Deep copy
+    public void setEducation(String education) {
+        this.education = education;
+    }
+
+    public void setExperience(String experience) {
+        this.experience = experience;
+    }
+
+    public void setSkills(List<String> skills) {
+        this.skills = skills;
+    }
+
+    public void printResume() {
+        System.out.println("x:----- Resume -----");
+        System.out.println("Name: " + name);
+        System.out.println("Education: " + education);
+        System.out.println("Experience: " + experience);
+        System.out.println("Skills: " + skills);
+        System.out.println("x:------------------");
+    }
+
+    // Save the current state as a Memento
+    public Memento save() {
+        return new Memento(name, education, experience, List.copyOf(skills));
+    }
+
+    // Restore state from Memento
+    public void restore(Memento memento) {
+        this.name = memento.getName();
+        this.education = memento.getEducation();
+        this.experience = memento.getExperience();
+        this.skills = memento.getSkills();
+    }
+
+    // Inner Memento class
+    public static class Memento {
+        private final String name;
+        private final String education;
+        private final String experience;
+        private final List<String> skills;
+
+        private Memento(String name, String education, String experience, List<String> skills) {
+            this.name = name;
+            this.education = education;
+            this.experience = experience;
+            this.skills = skills;
+        }
+
+        private String getName() {
+            return name;
+        }
+
+        private String getEducation() {
+            return education;
+        }
+
+        private String getExperience() {
+            return experience;
+        }
+
+        private List<String> getSkills() {
+            return skills;
+        }
     }
 }
 
-// Main driver to demonstrate snapshot creation and restoration
-class Main30 {
+// Caretaker
+class ResumeHistory {
+    private Stack<ResumeEditor.Memento> history = new Stack<>();
+
+    public void save(ResumeEditor editor) {
+        history.push(editor.save());
+    }
+
+    public void undo(ResumeEditor editor) {
+        if (!history.isEmpty()) {
+            editor.restore(history.pop());
+        }
+    }
+}
+
+// Main driver
+public class Main30 {
     public static void main(String[] args) {
         ResumeEditor editor = new ResumeEditor();
-        editor.name = "Alice";
-        editor.education = "B.Tech in CS";
-        editor.experience = "2 years at ABC Corp";
-        editor.skills = new ArrayList<>(Arrays.asList("Java", "SQL"));
+        ResumeHistory history = new ResumeHistory();
 
-        // Step 1: Create a snapshot before making changes
-        ResumeSnapshot snapshot = new ResumeSnapshot(editor);
+        editor.setName("Alice");
+        editor.setEducation("B.Tech CSE");
+        editor.setExperience("Fresher");
+        editor.setSkills(Arrays.asList("Java", "DSA"));
+        history.save(editor);
 
-        // Step 2: Modify the resume
-        editor.name = "Alice Johnson";
-        editor.skills.add("Spring Boot");
+        editor.setExperience("SDE Intern at TUF+");
+        editor.setSkills(Arrays.asList("Java", "DSA", "LLD", "Spring Boot"));
+        history.save(editor);
 
-        System.out.println("After changes:");
-        System.out.println("Name: " + editor.name);
-        System.out.println("Skills: " + editor.skills);
+        editor.printResume(); // Shows updated experience
+        System.out.println("");
+        
+        history.undo(editor);
+        editor.printResume(); // Shows resume after one undo
+        System.out.println("");
 
-        // Step 3: Restore previous state using snapshot
-        snapshot.restore(editor);
-
-        System.out.println("\nAfter undo:");
-        System.out.println("Name: " + editor.name);
-        System.out.println("Skills: " + editor.skills);
+        history.undo(editor);
+        editor.printResume(); // Shows resume after second undo (initial state)
     }
 }
