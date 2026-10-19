@@ -1,68 +1,71 @@
 import java.util.*;
 
-// OrderService class
-class OrderService {
-
-    // Main method simulates placing an order and executing tasks sequentially
-    public static void main(String[] args) throws InterruptedException {
-        System.out.println("Placing order...\n");
-
-        // Send SMS and simulate the delay of 2 seconds
-        sendSMS();
-        System.out.println("Task 1 done.\n");
-
-        // Send Email and simulate the delay of 3 seconds
-        sendEmail();
-        System.out.println("Task 2 done.\n");
-
-        // Calculate ETA (Estimated Time of Arrival) with a delay of 5 seconds
-        String eta = calculateETA();
-        System.out.println("Order placed. Estimated Time of Arrival: " + eta);
-        System.out.println("Task 3 done.\n");
-    }
-
-    // Method to simulate sending SMS with a 2-second delay
-    private static void sendSMS() {
-        try{
-            Thread.sleep(2000); // Delay of 2 seconds
-            System.out.println("SMS Sent!");
-        }
-        catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
-
-    // Method to simulate sending Email with a 3-second delay
-    private static void sendEmail(){
-        try{
-            Thread.sleep(3000); // Delay of 3 seconds
-            System.out.println("Email Sent!");
-        }
-        catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
-
-    // Method to simulate calculating the ETA with a 5-second delay
-    private static String calculateETA() {
+// Implementing the Runnable interface for sending SMS
+class SMSTask implements Runnable {
+    public void run() {
         try {
-            Thread.sleep(5000); // Delay of 5 seconds
-        } 
-        catch (InterruptedException e) {
+            Thread.sleep(2000); // 2-second delay for SMS
+            System.out.println("SMS Sent using Runnable.");
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
-        return "25 minutes"; // Returning the calculated ETA
     }
 }
 
-// Main class
-class Main31{
-
-    public static void main(String[] args) {
-        // Initiating the order processing by calling the OrderService main method
+// Implementing the Runnable interface for sending Email
+class EmailTask implements Runnable {
+    public void run() {
         try {
-            OrderService.main(args); // Call the OrderService's main method
+            Thread.sleep(3000); // 3-second delay for Email
+            System.out.println("Email Sent using Runnable.");
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+// Implementing the Runnable interface for calculating ETA
+class ETATask implements Runnable {
+    public void run() {
+        try {
+            Thread.sleep(5000); // 5-second delay for ETA calculation
+            System.out.println("ETA Calculated using Runnable. Estimated Time: 25 minutes.");
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+class Main31 {
+    public static void main(String[] args) {
+        // Create Runnable objects for SMS, Email, and ETA calculation
+        SMSTask smsTask = new SMSTask();
+        EmailTask emailTask = new EmailTask();
+        ETATask etaTask = new ETATask();
+
+        // Create Thread objects and pass the Runnable tasks to them
+        Thread smsThread = new Thread(smsTask);
+        Thread emailThread = new Thread(emailTask);
+        Thread etaThread = new Thread(etaTask);
+
+        System.out.println("Task Started.\n");
+
+        // Start all threads
+        smsThread.start();
+        System.out.println("Task 1 ongoing...");
+
+        emailThread.start();
+        System.out.println("Task 2 ongoing...");
+
+        etaThread.start();
+        System.out.println("Task 3 ongoing...");
+
+        // Wait for all threads to finish
+        try {
+            smsThread.join();
+            emailThread.join();
+            etaThread.join();
+            System.out.println("All tasks completed.");
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
