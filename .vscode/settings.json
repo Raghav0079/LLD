@@ -4,5 +4,6 @@
     },
     "metals.enableSemanticHighlighting": false,
     "metals.enableStripMarginOnTypeFormatting": false,
-    "metals.protobufLsp": false
+    "metals.protobufLsp": false,
+    "java.debug.settings.onBuildFailureProceed": true
 }
