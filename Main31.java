@@ -1,10 +1,19 @@
-import java.util.*;
+import java.util.concurrent.*;
 
-// Implementing the Runnable interface for sending SMS
+// Implementing Callable to calculate ETA (only this task requires a return value)
+class ETACalculationTask implements Callable<String> {
+    public String call() throws InterruptedException {
+        Thread.sleep(5000); // Simulate 5-second delay for ETA calculation
+        System.out.println("Calculation ETA using Callable.");
+        return "ETA: 25 minutes"; // Return the ETA result
+    }
+}
+
+// Implementing Runnable to send SMS (no return value required)
 class SMSTask implements Runnable {
     public void run() {
         try {
-            Thread.sleep(2000); // 2-second delay for SMS
+            Thread.sleep(2000); // Simulate 2-second delay for SMS
             System.out.println("SMS Sent using Runnable.");
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -12,24 +21,12 @@ class SMSTask implements Runnable {
     }
 }
 
-// Implementing the Runnable interface for sending Email
+// Implementing Runnable to send Email (no return value required)
 class EmailTask implements Runnable {
     public void run() {
         try {
-            Thread.sleep(3000); // 3-second delay for Email
+            Thread.sleep(3000); // Simulate 3-second delay for Email
             System.out.println("Email Sent using Runnable.");
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
-}
-
-// Implementing the Runnable interface for calculating ETA
-class ETATask implements Runnable {
-    public void run() {
-        try {
-            Thread.sleep(5000); // 5-second delay for ETA calculation
-            System.out.println("ETA Calculated using Runnable. Estimated Time: 25 minutes.");
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -38,36 +35,29 @@ class ETATask implements Runnable {
 
 class Main31 {
     public static void main(String[] args) {
-        // Create Runnable objects for SMS, Email, and ETA calculation
+        // Create ExecutorService to manage threads
+        ExecutorService executorService = Executors.newFixedThreadPool(3);
+
+        // Create Callable task for ETA calculation and Runnable tasks for SMS and Email
         SMSTask smsTask = new SMSTask();
         EmailTask emailTask = new EmailTask();
-        ETATask etaTask = new ETATask();
+        ETACalculationTask etaTask = new ETACalculationTask();
 
-        // Create Thread objects and pass the Runnable tasks to them
-        Thread smsThread = new Thread(smsTask);
-        Thread emailThread = new Thread(emailTask);
-        Thread etaThread = new Thread(etaTask);
+        // Submit tasks and get Future objects for the ETA task
+        Future<String> etaResult = executorService.submit(etaTask);
 
-        System.out.println("Task Started.\n");
+        // Submit the SMS and Email tasks (no result required)
+        executorService.submit(smsTask);
+        executorService.submit(emailTask);
 
-        // Start all threads
-        smsThread.start();
-        System.out.println("Task 1 ongoing...");
-
-        emailThread.start();
-        System.out.println("Task 2 ongoing...");
-
-        etaThread.start();
-        System.out.println("Task 3 ongoing...");
-
-        // Wait for all threads to finish
         try {
-            smsThread.join();
-            emailThread.join();
-            etaThread.join();
-            System.out.println("All tasks completed.");
-        } catch (InterruptedException e) {
+            // Get the result from the Future object for ETA
+            System.out.println(etaResult.get()); // Wait for ETA task to finish and print result
+        } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
         }
+
+        // Shutdown the ExecutorService
+        executorService.shutdown();
     }
 }
