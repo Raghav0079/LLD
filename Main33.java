@@ -1,35 +1,28 @@
-import java.util.*;
+import java.util.concurrent.*;
 
-// Ride Matching Service Class
-class RideMatchingService {
+// Using the newFixedThreadPool to manage threads
+class EmailService {
+    private static final ExecutorService executor = Executors.newFixedThreadPool(10); // Thread pool with 10 threads
 
-    // Method handling ride request
-    public void requestRide(String riderId) {
-
-        // Creating a new thread for the ride
-        Thread matchThread = new Thread(() -> {
-            System.out.println("Matching rider " + riderId + " to a driver...");
-            // Simulate some processing
+    // Method to send email
+    public static void sendEmail(String recipient) {
+        executor.execute(() -> {
+            System.out.println("Sending email to " + recipient + " on " + Thread.currentThread().getName());
             try {
-                Thread.sleep(1000); // Simulate a 1-second matching process
+                // Simulate dummy work (sending an email)
+                Thread.sleep(1000);  // Simulate delay
             } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
+                Thread.currentThread().interrupt();  // Handle interruption
             }
-            System.out.println("Ride matched for rider " + riderId);
+            System.out.println("Email sent to " + recipient);
         });
-        matchThread.start();
     }
-}
 
-class Main33{
+    // Main method to simulate sending multiple emails
     public static void main(String[] args) {
-        RideMatchingService rideService1 = new RideMatchingService();
-        RideMatchingService rideService2 = new RideMatchingService();
-
-        rideService1.requestRide("Raj");
-        System.out.println("task1 running...");
-
-        rideService2.requestRide("John Doe");
-        System.out.println("task2 running...");
+        for (int i = 1; i <= 25; i++) {
+            sendEmail("user" + i + "@gmail.com");  // Send email to 1000 users
+        }
+        executor.shutdown();  // Gracefully shut down the executor
     }
 }
