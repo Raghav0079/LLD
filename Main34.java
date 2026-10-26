@@ -2,7 +2,7 @@ import java.util.concurrent.*;
 
 class PurchaseCounter{
     private int count =0;
-    public void increment(){
+    public synchronized void increment(){
         count++;
 
     }
@@ -13,7 +13,7 @@ class PurchaseCounter{
 }
 
 class Main34{
-    public static void main(String[] args) throws InterruptedExecution{
+    public static void main(String[] args) throws InterruptedException{
         PurchaseCounter counter = new PurchaseCounter();
         Runnable task = () -> {
             for ( int i=0 ; i < 1000 ; i++){
