@@ -12,7 +12,6 @@ class PurchaseCounter{
     }
 }
 
-
 class Main34{
     public static void main(String[] args) throws InterruptedExecution{
         PurchaseCounter counter = new PurchaseCounter();
