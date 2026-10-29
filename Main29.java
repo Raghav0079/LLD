@@ -1,70 +1,35 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
-// Mediator Interface
-interface DocumentSessionMediator {
-    void broadcastChange(String change, User sender);
-    void join(User user);
-}
+// Ride Matching Service Class
+class RideMatchingService {
 
-// Concrete Mediator Class
-class CollaborativeDocument implements DocumentSessionMediator {
-    private List<User> users = new ArrayList<>();
+    // Method handling ride request
+    public void requestRide(String riderId) {
 
-    @Override
-    public void join(User user) {
-        users.add(user);
-    }
-
-    @Override
-    public void broadcastChange(String change, User sender) {
-        for (User user : users) {
-            if (user != sender) {
-                user.receiveChange(change, sender);
+        // Creating a new thread for the ride
+        Thread matchThread = new Thread(() -> {
+            System.out.println("Matching rider " + riderId + " to a driver...");
+            // Simulate some processing
+            try {
+                Thread.sleep(1000); // Simulate a 1-second matching process
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
             }
-        }
+            System.out.println("Ride matched for rider " + riderId);
+        });
+        matchThread.start();
     }
 }
 
-// User Class
-class User {
-    protected String name;
-    protected DocumentSessionMediator mediator;
-
-    public User(String name, DocumentSessionMediator mediator) {
-        this.name = name;
-        this.mediator = mediator;
-    }
-
-    // Method for users to make a change
-    public void makeChange(String change) {
-        System.out.println(name + " edited the document: " + change);
-        mediator.broadcastChange(change, this);
-    }
-
-    // Method to receive a change from another user
-    public void receiveChange(String change, User sender) {
-        System.out.println(name + " saw change from " + sender.name + ": \"" + change + "\"");
-    }
-}
-
-// Client Code
 class Main29 {
     public static void main(String[] args) {
-        CollaborativeDocument doc = new CollaborativeDocument();
+        RideMatchingService rideService1 = new RideMatchingService();
+        RideMatchingService rideService2 = new RideMatchingService();
 
-        // Creating users
-        User alice = new User("Alice", doc);
-        User bob = new User("Bob", doc);
-        User charlie = new User("Charlie", doc);
+        rideService1.requestRide("Raj");
+        System.out.println("task1 running...");
 
-        // Joining the collaborative document
-        doc.join(alice);
-        doc.join(bob);
-        doc.join(charlie);
-
-        // Users making changes
-        alice.makeChange("Added project title");
-        bob.makeChange("Corrected grammar in paragraph 2");
+        rideService2.requestRide("John Doe");
+        System.out.println("task2 running...");
     }
 }
