@@ -1,35 +1,85 @@
-import java.util.concurrent.*;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.ReentrantLock;
 
-class PurchaseCounter{
-    private int count =0;
-    public synchronized void increment(){
-        count++;
+class TicketBookingTryLock {
+    private int availableSeats = 1;
+    private final ReentrantLock lock = new ReentrantLock();
 
-    }
+    public void bookTicket(String user) {
+        System.out.println(user + " is trying to book...");
 
-    public int getCount(){
-        return count ;
+        boolean lockAcquired = false;
+
+        try {
+            lockAcquired =
+                    lock.tryLock(2, TimeUnit.SECONDS);
+
+            if (!lockAcquired) {
+                System.out.println(
+                        user +
+                        " could not acquire the lock. Try again later."
+                );
+                return;
+            }
+
+            System.out.println(user + " acquired the lock.");
+
+            if (availableSeats > 0) {
+                availableSeats--;
+                System.out.println(
+                        user + " successfully booked the ticket."
+                );
+            } else {
+                System.out.println(
+                        user + " could not book. No seats left."
+                );
+            }
+
+            // Used only to demonstrate the timeout behavior.
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+
+            System.out.println(
+                    user + " was interrupted while waiting or working."
+            );
+        } finally {
+            if (lockAcquired) {
+                System.out.println(
+                        user + " is releasing the lock."
+                );
+                lock.unlock();
+            }
+        }
     }
 }
 
-class Main34{
-    public static void main(String[] args) throws InterruptedException{
-        PurchaseCounter counter = new PurchaseCounter();
-        Runnable task = () -> {
-            for ( int i=0 ; i < 1000 ; i++){
-                counter.increment();
+public class Main34 {
+    public static void main(String[] args)
+            throws InterruptedException {
+
+        TicketBookingTryLock booking =
+                new TicketBookingTryLock();
+
+        Thread user1 = new Thread(
+                () -> booking.bookTicket("User 1")
+        );
+
+        Thread user2 = new Thread(() -> {
+            try {
+                Thread.sleep(500);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                return;
             }
-        };
 
-              Thread t1 = new Thread(task);
-        Thread t2 = new Thread(task);
-        t1.start();
-        t2.start();
-        t1.join();
-        t2.join();
+            booking.bookTicket("User 2");
+        });
 
+        user1.start();
+        user2.start();
 
-        System.out.println("Final Count: " + counter.getCount());
-    
+        user1.join();
+        user2.join();
     }
 }
