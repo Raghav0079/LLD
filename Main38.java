@@ -1,37 +1,43 @@
-import java.util.*;
+// ── Contract: defines what the client needs, not how it is done
+interface NotificationService {
+    void send(String message);
+}
 
-class OrderService2 {
-    private InventoryService inventory;
-    private PaymentService payment;
-    private NotificationService notification;
-
-    // Constructor Injection - Dependencies are injected through the constructor
-    public OrderService2(InventoryService inventory, 
-                         PaymentService payment,
-                         NotificationService notification) {
-        this.inventory = inventory;
-        this.payment = payment;
-        this.notification = notification;
-    }
-
-    public void checkout(Order order) {
-        inventory.blockItems(order);
-        payment.process(order);
-        notification.sendConfirmation(order);
+// ── Concrete implementation of the contract
+class EmailNotificationService implements NotificationService {
+    @Override
+    public void send(String message) {
+        System.out.println("Email sent: " + message);
     }
 }
 
-// Client-side code
+// ── Client that depends on the abstraction, not the implementation
+class UserService {
+    // Dependency held as an interface, promoting loose coupling
+    private final NotificationService notificationService;
+
+    // Constructor Injection: forces the caller to supply the dependency up-front
+    public UserService(NotificationService notificationService) {
+        this.notificationService = notificationService;
+    }
+
+    // Business logic uses the injected service
+    public void register(String user) {
+        System.out.println("User registered: " + user);
+        notificationService.send("Welcome " + user);
+    }
+}
+
+// ── Composition Root: the only place where “new” keywords appear
 class Main38 {
     public static void main(String[] args) {
-        // Injecting dependencies manually (Constructor Injection)
-        OrderService2 orderService2 = new OrderService2(
-            new InventoryService(), 
-            new RazorpayPayment(), 
-            new NotificationService()
-        );
-        
-        // Now, we can use the orderService2 to perform operations
-        orderService2.checkout(order);
+        // Create the concrete dependency
+        NotificationService service = new EmailNotificationService();
+
+        // Inject it into the client
+        UserService userService = new UserService(service);
+
+        // Execute business operation
+        userService.register("raj");
     }
-}  
+}
