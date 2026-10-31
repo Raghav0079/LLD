@@ -1,21 +1,21 @@
-class ProductServiceFailFirst {
-    public Product getProduct(String productId) {
-        if (productId == null) throw new IllegalArgumentException("Product ID cannot be null");
-        // fail-fast for invalid input
-        return productRepo.find(productId);
+// Custom Exception
+class CustomerNotPlusException extends RuntimeException {
+    public CustomerNotPlusException(String userId) {
+        super("User " + userId + " is not a plus customer");
     }
 }
 
-// Search Product in any of the websites..
-class ProductServiceFailSafe {
-    public Product getProduct(String productId) {
-        try {
-            return productRepo.find(productId);
-        } catch (Exception e) {
-            // fail-safe: return default
-            return new Product("default", "Fallback Product");
+class CourseService {
+    public void accessCourse(String userId) {
+        if (!hasAccess(userId)) {
+            // Throwing the custom exception if the user doesn't have access
+            throw new CustomerNotPlusException(userId);
         }
+        // continue enrollment...
+    }
+
+    private boolean hasAccess(String userId) {
+        // Logic to check if the user is a Plus customer from the database
+        return false;  // For the sake of this example, assume the user doesn't have access
     }
 }
-
-
