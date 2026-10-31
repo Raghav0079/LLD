@@ -68,4 +68,29 @@ public String getETAWithBackoff() throws InterruptedException {
     return "ETA unavailable";  // Return message if all retries fail
 }
 
+@Service
+class PaymentService {
+
+    @CircuitBreaker(name = "paymentService", fallbackMethod = "paymentFallback")
+    public String charge(String userId, double amount) {
+        // real payment logic
+        return externalPaymentApi.charge(userId, amount);
+    }
+
+    // Fallback method in case of failure
+    public String paymentFallback(String userId, double amount, Throwable t) {
+        log.error("Payment Service Down. Fallback triggered.");
+        return "PAYMENT_FAILED";
+    }
+}
+
+@Bean
+public Customizer<CircuitBreakerConfigCustomizer> paymentCircuitBreakerConfig() {
+    return CircuitBreakerConfigCustomizer.of("paymentService", builder -> builder
+        .slidingWindowSize(10)
+        .failureRateThreshold(50)
+        .waitDurationInOpenState(Duration.ofSeconds(10))
+        .permittedNumberOfCallsInHalfOpenState(2)
+        .automaticTransitionFromOpenToHalfOpenEnabled(true));
+}
 
