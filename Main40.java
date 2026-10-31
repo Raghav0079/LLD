@@ -1,96 +1,173 @@
-class RecommendationService{
-    public List<String> getRecommendedItems(String userId){
-        try{
-            return recommendationService.fetchLiveRecommendations(userId);
-        } catch ( Exception ex){
-            log.warn("Live service failed, falling back to cache");
-            return cacheService.getCachedRecommendations(userId);
+import java.time.Duration;
+import java.util.List;
+import java.util.logging.Logger;
+
+class Main40 {
+
+    private static final Logger log = Logger.getLogger(Main40.class.getName());
+
+    // ==========================================
+    // 1. RECOMMENDATION SERVICE WITH CACHE FALLBACK
+    // ==========================================
+    public static class RecommendationService {
+        private final ExternalRecommendationService recommendationService;
+        private final CacheService cacheService;
+
+        public RecommendationService(ExternalRecommendationService recommendationService, CacheService cacheService) {
+            this.recommendationService = recommendationService;
+            this.cacheService = cacheService;
+        }
+
+        public List<String> getRecommendedItems(String userId) {
+            try {
+                return recommendationService.fetchLiveRecommendations(userId);
+            } catch (Exception ex) {
+                log.warning("Live service failed, falling back to cache");
+                return cacheService.getCachedRecommendations(userId);
+            }
         }
     }
-}
 
+    // ==========================================
+    // 2. MENU FALLBACK UI
+    // ==========================================
+    public static class MenuController {
+        private final MenuService menuService;
 
-public List<String> fetchLiveRecommendations(String userId){
-    return List.of("movie-1", "movie-2");
-}
+        public MenuController(MenuService menuService) {
+            this.menuService = menuService;
+        }
 
-// Show fallback UI
-public Menu getMenu(String restaurantId) {
-    try {
-        // Attempt to fetch the live menu
-        return menuService.fetchMenu(restaurantId);
-    } catch (Exception e) {
-        // If the live menu is unavailable, show a fallback message in the UI
-        return new Menu("Menu currently unavailable. Please try again later.");
-    }
-}
-
-
-// Queue request's
-public void placeOrder(Order order) {
-    try {
-        // Attempt to charge the payment
-        paymentService.charge(order);
-    } catch (Exception e) {
-        // If payment fails, queue the order for retry
-        orderRetryQueue.enqueue(order);
-        log.warn("Payment failed. Queued for retry.");
-    }
-}
-
-
-// Naive retry example
-public String getETA() {
-    int retries = 3;  // Maximum retry attempts
-    while (retries-- > 0) {
-        try {
-            return etaService.getETA();  // Attempt to fetch ETA from service
-        } catch (Exception e) {
-            log.warn("Retrying ETA, attempts left: " + retries);
+        public Menu getMenu(String restaurantId) {
+            try {
+                return menuService.fetchMenu(restaurantId);
+            } catch (Exception e) {
+                return new Menu("Menu currently unavailable. Please try again later.");
+            }
         }
     }
-    return "ETA unavailable";  // Return message if all retries fail
-}
 
+    // ==========================================
+    // 3. ORDER PLACEMENT & RETRY QUEUING
+    // ==========================================
+    public static class OrderService {
+        private final PaymentServiceMock paymentService;
+        private final OrderRetryQueue orderRetryQueue;
 
-// Backoff strategy
-public String getETAWithBackoff() throws InterruptedException {
-    int retries = 3;
-    int delay = 1000; // Initial delay is 1 second
-    while (retries-- > 0) {
-        try {
-            return etaService.getETA();  // Attempt to fetch ETA from service
-        } catch (Exception e) {
-            Thread.sleep(delay);  // Wait before retrying
-            delay *= 2;  // Exponential backoff: double the delay each time
+        public OrderService(PaymentServiceMock paymentService, OrderRetryQueue orderRetryQueue) {
+            this.paymentService = paymentService;
+            this.orderRetryQueue = orderRetryQueue;
+        }
+
+        public void placeOrder(Order order) {
+            try {
+                paymentService.charge(order);
+            } catch (Exception e) {
+                orderRetryQueue.enqueue(order);
+                log.warning("Payment failed. Queued for retry.");
+            }
         }
     }
-    return "ETA unavailable";  // Return message if all retries fail
-}
 
-@Service
-class PaymentService {
+    // ==========================================
+    // 4. ETA RETRY & EXPONENTIAL BACKOFF
+    // ==========================================
+    public static class EtaClient {
+        private final EtaService etaService;
 
-    @CircuitBreaker(name = "paymentService", fallbackMethod = "paymentFallback")
-    public String charge(String userId, double amount) {
-        // real payment logic
-        return externalPaymentApi.charge(userId, amount);
+        public EtaClient(EtaService etaService) {
+            this.etaService = etaService;
+        }
+
+        public String getETA() {
+            int retries = 3;  
+            while (retries-- > 0) {
+                try {
+                    return etaService.getETA();  
+                } catch (Exception e) {
+                    log.warning("Retrying ETA, attempts left: " + retries);
+                }
+            }
+            return "ETA unavailable";  
+        }
+
+        public String getETAWithBackoff() {
+            int retries = 3;
+            int delay = 100; // Reduced for quick demo execution (originally 1000ms)
+            while (retries-- > 0) {
+                try {
+                    return etaService.getETA();  
+                } catch (Exception e) {
+                    try {
+                        Thread.sleep(delay);  
+                    } catch (InterruptedException ie) {
+                        Thread.currentThread().interrupt();
+                    }
+                    delay *= 2;  
+                }
+            }
+            return "ETA unavailable";  
+        }
     }
 
-    // Fallback method in case of failure
-    public String paymentFallback(String userId, double amount, Throwable t) {
-        log.error("Payment Service Down. Fallback triggered.");
-        return "PAYMENT_FAILED";
+    // ==========================================
+    // SUPPORTING MOCK INTERFACES & CLASSES
+    // ==========================================
+    public interface ExternalRecommendationService {
+        List<String> fetchLiveRecommendations(String userId) throws Exception;
+    }
+
+    public interface CacheService {
+        List<String> getCachedRecommendations(String userId);
+    }
+
+    public interface MenuService {
+        Menu fetchMenu(String restaurantId) throws Exception;
+    }
+
+    public interface OrderRetryQueue {
+        void enqueue(Order order);
+    }
+
+    public interface EtaService {
+        String getETA() throws Exception;
+    }
+
+    public interface PaymentServiceMock {
+        void charge(Order order) throws Exception;
+    }
+
+    public static class Menu {
+        private final String message;
+        public Menu(String message) { this.message = message; }
+        public String getMessage() { return message; }
+    }
+
+    public static class Order {
+        private final String orderId;
+        public Order(String orderId) { this.orderId = orderId; }
+        public String getOrderId() { return orderId; }
+    }
+
+    // ==========================================
+    // MAIN METHOD TO EXECUTE EXAMPLES
+    // ==========================================
+    public static void main(String[] args) {
+        System.out.println("=== Running Resilience Pattern Examples ===\n");
+
+        // 1. Test Recommendation Fallback (Live service throws error, uses cache)
+        ExternalRecommendationService failingLiveRecs = userId -> { throw new RuntimeException("Service down"); };
+        CacheService workingCache = userId -> List.of("cached-movie-1", "cached-movie-2");
+        RecommendationService recService = new RecommendationService(failingLiveRecs, workingCache);
+        
+        System.out.println("Recommendations result: " + recService.getRecommendedItems("user-123"));
+
+        // 2. Test ETA Retry Mechanism
+        EtaService failingEta = () -> { throw new RuntimeException("Timeout"); };
+        EtaClient etaClient = new EtaClient(failingEta);
+        
+        System.out.println("ETA Retry result: " + etaClient.getETA());
+        
+        System.out.println("\n=== Execution Completed Successfully ===");
     }
 }
-
-@Bean
-public Customizer<CircuitBreakerConfigCustomizer> paymentCircuitBreakerConfig() {
-    return CircuitBreakerConfigCustomizer.of("paymentService", builder -> builder
-        .slidingWindowSize(10)
-        .failureRateThreshold(50)
-        .waitDurationInOpenState(Duration.ofSeconds(10))
-        .permittedNumberOfCallsInHalfOpenState(2)
-        .automaticTransitionFromOpenToHalfOpenEnabled(true));
-}
-
